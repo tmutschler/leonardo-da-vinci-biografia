@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leonardo da Vinci</title>
+    <style>
+        body{margin: 0;}
+
+        .container {display: grid;}
+
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            grid-row-start: 1;
+            grid-row-end: 1;
+        }
+
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            grid-row-start: 1;
+            grid-row-end: 1;
+            justify-content: center;
+            gap: 20px;
+        }
+
+
+        .imagem_leo {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+        }
+
+        header {background-color: #506E6A;}
+
+        ul {
+            list-style-type: none;
+            color: #506E6A;
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #506E6A 1px;
+        }
+
+        li {float: left;}
+
+        a:hover {
+            background-color: #506E6A;
+            color: white;
+        }
+
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            grid-row-start: 1;
+            grid-row-end: 6;
+            background-color: #506E6A;
+            color: white;
+            text-align: center;
+        }
+
+        /* media query para dispositivos móveis */
+        @media only screen and (max-width: 767px) {
+            .wrapper {
+               grid-column-start: 1;
+                grid-column-end: 1;
+            }
+
+            .imagem_leo {
+                grid-column-start: 1;
+                grid-column-end: 1;  
+            }
+
+            .principal {
+                grid-column-start: 1;
+                grid-column-end: 1;
+                }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <h1 style="color: white; text-align: center;">Biografia Leonardo da Vinci</h1>
+        <br>
+
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">Biografia</a></li>
+            <li><a href="obras.html">Obras</a></li>
+            <li><a href="curiosidades.html">Curiosidades</a></li>
+        </ul>
+    </nav>
+    <div class="container wrapper">
+        <aside class="imagem_leo">
+            <img src="imagens/leonardo-da-vinci.png">
+            <div class="infos">
+                <p><strong>Ocupação</strong> Pintor italiano</p>
+                <p>
+                    <strong>Data do Nascimento</strong>
+                    15/04/1452
+                </p>
+                <p><strong>Data da Morte</strong> 02/05/1519 (aos 67 anos)</p>
+            </div>
+
+        </aside>
+        <section class="principal">
+            <h1>
+                Leonardo da Vinci - Curiosidades
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore reprehenderit earum illum minus, velit quibusdam nobis nisi neque quam nihil commodi ratione expedita quas eum eligendi id. Nulla, alias ratione fuga deleniti ad nisi ipsa non. Architecto deleniti facilis voluptatum veritatis nulla quidem qui, quam expedita dolorem natus commodi placeat optio cupiditate labore earum magni eaque voluptas ad tempora rerum omnis asperiores explicabo voluptatem? Illum libero expedita inventore illo doloremque placeat hic, cum ad error voluptas non? Obcaecati ipsam consequuntur voluptatum sapiente perspiciatis recusandae quasi commodi blanditiis esse inventore suscipit, placeat quod deserunt tempore possimus voluptatem hic nam voluptas vel! Quis deleniti esse vitae iste animi, eum debitis iure quae rem, itaque aliquam exercitationem molestiae mollitia, explicabo magni pariatur dignissimos praesentium laudantium eaque commodi provident excepturi magnam ipsum? Exercitationem sequi voluptatem error officiis veniam fugit excepturi, itaque nemo illo maiores asperiores dolor, reiciendis numquam distinctio harum accusamus maxime doloribus possimus, culpa sint provident magni ducimus voluptates alias. Ipsum, odit. Consequuntur dolorem amet sunt voluptas placeat numquam, doloremque, cum animi vero voluptatibus ea? Debitis officiis culpa aliquid facere soluta odit vero. Fugit facilis, iusto eum voluptatum quam explicabo similique aperiam repellendus totam! Atque cum, totam culpa labore blanditiis quo deleniti consequatur! Ea aut sit dolore recusandae nisi rem corrupti veniam quae expedita omnis neque necessitatibus, repudiandae quam obcaecati unde laboriosam mollitia nobis voluptates quas eum? Enim nisi, possimus aperiam illum explicabo, animi vel dolorum sit quisquam quae numquam? Vitae officiis ab ipsum porro et quia, consequatur, tempora error atque explicabo natus blanditiis obcaecati labore magnam necessitatibus nobis quidem iusto. Ipsa odit, ad commodi maiores itaque voluptas consequuntur! Fugit necessitatibus laudantium iure modi cumque nisi aliquid, enim pariatur dolor voluptatibus nulla dicta, minima excepturi nemo sapiente dolores ea? Repellendus enim dicta veritatis eligendi dolor, iusto architecto ea, assumenda, accusantium magni voluptate unde?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati enim exercitationem necessitatibus recusandae sequi dolores quidem sunt asperiores, ullam ea sed repudiandae, sit eos tempore magni animi quis tenetur! Quae voluptates, facere praesentium excepturi adipisci eos laboriosam alias quasi molestiae exercitationem inventore minus unde maiores veritatis ad at. Dolores, laboriosam facere! Ea modi dicta aliquid ex aut incidunt, tenetur dolorum consectetur odio quis nulla minus voluptatum deleniti omnis et totam odit! Nobis qui corporis officia alias ea. Incidunt, culpa tempore! Tenetur atque adipisci cumque distinctio ullam in! Cupiditate aspernatur corrupti nihil temporibus et hic nostrum distinctio. Provident a aliquam, necessitatibus quae maiores, eligendi enim voluptas sequi cupiditate libero, magni eius nesciunt veniam? At vitae aspernatur aliquam amet, id fugit distinctio cupiditate repellat soluta laborum rem voluptatem ullam deserunt dolores voluptates. Reprehenderit itaque, voluptatum ipsum explicabo repellat dignissimos! Fuga esse, inventore aperiam a ipsam consequatur blanditiis, sit temporibus, dolores odio sint harum. Accusamus architecto consequuntur culpa! Tenetur esse nemo totam ipsam incidunt itaque. Accusantium animi aliquam omnis soluta culpa illo dolore dolorum nulla quo provident quam eius quae, ipsum accusamus? Voluptas suscipit, quidem reiciendis asperiores molestiae voluptate, optio neque hic cumque ducimus sunt libero accusamus culpa placeat magnam est et. Impedit?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus fugit possimus laboriosam dolor ipsam illum hic deleniti voluptatum asperiores, molestiae iusto eius sit officia ut. Quibusdam illo dolore blanditiis praesentium ipsa laboriosam architecto ducimus incidunt quo veritatis, deleniti corporis in repellat reiciendis eius similique, corrupti impedit asperiores beatae ea necessitatibus, optio ut? Eum in esse quod harum necessitatibus cupiditate reiciendis quis labore! Omnis quas quam, dicta dolore eum libero minus quae inventore accusamus est veritatis, in possimus ut necessitatibus quod ullam laudantium incidunt ducimus unde aliquam. Provident, deleniti a aliquam quod quisquam rerum laboriosam odio amet officiis, aliquid repellendus exercitationem.</p>
+        </section>
+
+    </div>
+    <footer class="container">
+        <h1>Desenvolvido para fins educacionais</h1>
+    </footer>
+    </div>
+    
+</body>
+
+</html>
